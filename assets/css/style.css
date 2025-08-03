@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #a80b04;
+
+  --heading-font: "Lobster Two", serif;  
+  --body-font: "Cinzel", serif;           
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color: var(--min-color);
+}
+
+
+.text-deep-red {
+  color: #a80b04;
+}
+
+.text-golden-yellow {
+  color: #fec600;
+}
+
+.back-red {
+  background-color: #a80b04;
+}
+
+.carousel-box{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hovered-btn:hover{
+  background-color: #fec600;
+}
+
+
+.hero-line1{
+  font-family: var(--heading-font);
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 53.2px;
+}
+
+.hero-line2{
+  font-family: Cinzel, serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 75.6px;
+  letter-spacing:5px;
+}
+
+.hero-line3{
+  font-family: "Lobster Two", serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.menu-img {
+  width: 100px;
+  height: 100px;   
+  object-fit: cover;  
+}
+
+.dashed-border {
+  border-style: dashed;
+}
+
+.rotate-hover {
+  transition: transform 1s ease;
+}
+
+.rotate-hover:hover {
+  transform: rotate(360deg);
+}
+
+.chef{
+  width: 100%;
+
+}
